@@ -87,20 +87,20 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
             {/* Dark Mode Toggle */}
-            <button
+            {/* <button
               onClick={toggleDarkMode}
               className={`p-2 rounded-lg transition-colors duration-300 ${
                 isDarkMode 
                   ? 'hover:bg-gray-700 text-gray-300' 
                   : 'hover:bg-gray-100 text-gray-700'
               }`}
-            >
-              {isDarkMode ? (
+            > */}
+              {/* {isDarkMode ? (
                 <Sun className="h-5 w-5" />
               ) : (
                 <Moon className="h-5 w-5" />
               )}
-            </button>
+            </button> */}
 
             {/* Cart Icon */}
             <Link
