@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowDown, Play, Star, Clock, Users } from 'lucide-react';
-
+import About from './About';
 const Home = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -116,10 +116,9 @@ const Home = () => {
             <Link to="/menu" className="btn-primary text-lg px-8 py-4">
               Explore Our Menu
             </Link>
-            <button className="btn-secondary text-lg px-8 py-4">
-              <Play className="h-5 w-5 mr-2 inline" />
-              Watch Our Story
-            </button>
+            <Link to="/About" className="btn-primary text-lg px-8 py-4">
+            Watch Our Story
+            </Link>
           </motion.div>
         </div>
 
